@@ -7,7 +7,7 @@ public class expressions {
         // Casting the return as another type, but here it's actually redundant :/
         num = (double) num/3;
         System.out.println(num);
-        
+
         // In Java we also have the operators + - / % and -- ++
         num--;
         System.out.println(num);
