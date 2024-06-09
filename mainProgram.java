@@ -1,4 +1,4 @@
-import java.awt.*;
+import java.util.Scanner;
 
 public class mainProgram {
     public static void main(String[] args) {
@@ -6,10 +6,9 @@ public class mainProgram {
         double myNum = 10.21;
         String myName = "Gauss";
         float avg = 8.25f;
-
-        
         System.out.print("One line escape sequence testing\n");
         System.out.println("Hello World " + myNum);
+        Scanner scan = new Scanner(System.in);
 
     }
 }
