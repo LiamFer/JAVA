@@ -14,6 +14,7 @@ public class arraylists {
         System.out.println("E quantos valores cada linha vai ter nessa Matriz?");
         int cols = sc.nextInt();
 
+
         // Criando uma Matrix
         for(int i = 0;i < rows;i++){
             ArrayList<Integer> row = new ArrayList<>();
