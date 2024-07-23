@@ -13,17 +13,8 @@ public class mainProgram {
         room.students.add(aluno2);
 
         person.applyExam(room);
-
-
-        for (test exam : aluno1.exams){
-            System.out.println(exam.testSubject);
-            System.out.println(exam.appliedBy);
-        }
-
-        for (test exam : aluno2.exams){
-            System.out.println(exam.testSubject);
-            System.out.println(exam.appliedBy);
-        }
+        person.applyExam(room);
+        person.checkGrades(aluno1);
 
     }
 }

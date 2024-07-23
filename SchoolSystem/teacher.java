@@ -32,4 +32,14 @@ public class teacher extends employee{
         exam.correctedBy = String.format("%s %s", this.firstname,this.lastname);
     }
 
+    void checkGrades(student person){
+        System.out.printf("Checking %s %s Tests...\nHe took %d Tests in total!",person.firstname,person.lastname,person.exams.size());
+        // Printando os dados de cada Prova
+        System.out.println("Displaying all tests....\n");
+        for(test exam : person.exams){
+            System.out.printf("Test Name: %s\nGrade: %f\nApplied By: %s\nCorrected By: %s\n----------------------\n",
+                    exam.testSubject,exam.grade,exam.appliedBy,exam.correctedBy != null ? exam.correctedBy : "-");
+        }
+    }
+
 }

@@ -9,6 +9,5 @@ public class student extends employee{
         this.firstname = firstname;
         this.lastname = lastname;
         this.age = age;
-
     }
 }
