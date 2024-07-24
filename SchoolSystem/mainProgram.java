@@ -15,6 +15,6 @@ public class mainProgram {
         person.applyExam(room);
         person.applyExam(room);
         person.checkGrades(aluno1);
-
+        aluno1.checkGrades();
     }
 }
